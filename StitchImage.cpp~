@@ -41,14 +41,14 @@ int main()
  BBtime = getTickCount(); //check processing time   
  printf("%.2lf sec \n",  (BBtime - AAtime)/getTickFrequency() ); //check processing time  
   
- if (Stitcher::OK == status){   
+// if (Stitcher::OK == status){   
  
   printf("Working\n");
   imshow("Stitching Result",rImg);  
   imwrite("./stitching_img/Mosaic.jpg", rImg);
- }
+// }
   
- else  
+// else  
   printf("Stitching fail.");  
   
  waitKey(0);  

@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_SOURCE_DIR = /home/kim/opencv/Underwater-Mosaic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_BINARY_DIR = /home/kim/opencv/Underwater-Mosaic
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Underwater-Mosaic/CMakeFiles /home/kim/opencv/Underwater-Mosaic/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Underwater-Mosaic/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

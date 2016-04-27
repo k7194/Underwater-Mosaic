@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_SOURCE_DIR = /home/kim/opencv/Underwater-Mosaic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_BINARY_DIR = /home/kim/opencv/Underwater-Mosaic
 
 # Include any dependencies generated for this target.
 include CMakeFiles/StitchImage.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/StitchImage.dir/flags.make
 
 CMakeFiles/StitchImage.dir/StitchImage.cpp.o: CMakeFiles/StitchImage.dir/flags.make
 CMakeFiles/StitchImage.dir/StitchImage.cpp.o: StitchImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kim/opencv/Underwater-Mosaic/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/StitchImage.dir/StitchImage.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/StitchImage.dir/StitchImage.cpp.o -c /home/kim/opencv/Mosaic/StitchImageBasic/StitchImage.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/StitchImage.dir/StitchImage.cpp.o -c /home/kim/opencv/Underwater-Mosaic/StitchImage.cpp
 
 CMakeFiles/StitchImage.dir/StitchImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/StitchImage.dir/StitchImage.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kim/opencv/Mosaic/StitchImageBasic/StitchImage.cpp > CMakeFiles/StitchImage.dir/StitchImage.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/kim/opencv/Underwater-Mosaic/StitchImage.cpp > CMakeFiles/StitchImage.dir/StitchImage.cpp.i
 
 CMakeFiles/StitchImage.dir/StitchImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/StitchImage.dir/StitchImage.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kim/opencv/Mosaic/StitchImageBasic/StitchImage.cpp -o CMakeFiles/StitchImage.dir/StitchImage.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/kim/opencv/Underwater-Mosaic/StitchImage.cpp -o CMakeFiles/StitchImage.dir/StitchImage.cpp.s
 
 CMakeFiles/StitchImage.dir/StitchImage.cpp.o.requires:
 .PHONY : CMakeFiles/StitchImage.dir/StitchImage.cpp.o.requires
@@ -122,6 +122,6 @@ CMakeFiles/StitchImage.dir/clean:
 .PHONY : CMakeFiles/StitchImage.dir/clean
 
 CMakeFiles/StitchImage.dir/depend:
-	cd /home/kim/opencv/Mosaic/StitchImageBasic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kim/opencv/Mosaic/StitchImageBasic /home/kim/opencv/Mosaic/StitchImageBasic /home/kim/opencv/Mosaic/StitchImageBasic /home/kim/opencv/Mosaic/StitchImageBasic /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles/StitchImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kim/opencv/Underwater-Mosaic && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kim/opencv/Underwater-Mosaic /home/kim/opencv/Underwater-Mosaic /home/kim/opencv/Underwater-Mosaic /home/kim/opencv/Underwater-Mosaic /home/kim/opencv/Underwater-Mosaic/CMakeFiles/StitchImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/StitchImage.dir/depend
 

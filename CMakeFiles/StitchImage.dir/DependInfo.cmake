@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kim/opencv/Mosaic/StitchImageBasic/StitchImage.cpp" "/home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles/StitchImage.dir/StitchImage.cpp.o"
+  "/home/kim/opencv/Underwater-Mosaic/StitchImage.cpp" "/home/kim/opencv/Underwater-Mosaic/CMakeFiles/StitchImage.dir/StitchImage.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

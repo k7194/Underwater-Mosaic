@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kim/opencv/Mosaic/StitchImageBasic/StitchImage.cpp
+/home/kim/opencv/Underwater-Mosaic/StitchImage.cpp
 stdio.h
 -
 opencv2/opencv.hpp

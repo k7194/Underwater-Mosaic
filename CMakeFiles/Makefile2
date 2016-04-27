@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_SOURCE_DIR = /home/kim/opencv/Underwater-Mosaic
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
+CMAKE_BINARY_DIR = /home/kim/opencv/Underwater-Mosaic
 
 #=============================================================================
 # Target rules for target CMakeFiles/StitchImage.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/kim/opencv/Mosaic/StitchImageBasic
 CMakeFiles/StitchImage.dir/all:
 	$(MAKE) -f CMakeFiles/StitchImage.dir/build.make CMakeFiles/StitchImage.dir/depend
 	$(MAKE) -f CMakeFiles/StitchImage.dir/build.make CMakeFiles/StitchImage.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/kim/opencv/Underwater-Mosaic/CMakeFiles  1
 	@echo "Built target StitchImage"
 .PHONY : CMakeFiles/StitchImage.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/StitchImage.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StitchImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Underwater-Mosaic/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/StitchImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kim/opencv/Underwater-Mosaic/CMakeFiles 0
 .PHONY : CMakeFiles/StitchImage.dir/rule
 
 # Convenience name for target.

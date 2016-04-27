@@ -1,1 +1,1 @@
-/home/kim/opencv/Mosaic/StitchImageBasic/CMakeFiles/StitchImage.dir
+/home/kim/opencv/Underwater-Mosaic/CMakeFiles/StitchImage.dir
